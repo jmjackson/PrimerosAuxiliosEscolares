@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:weightSum="1">
-    <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <Button
-                style="?android:attr/buttonStyleSmall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button" android:background="@drawable/ic_launcher"/>
-        <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Small Text"
-                android:id="@+id/textView"/>
-    </LinearLayout>
-</LinearLayout>
+              android:weightSum="1"
+              android:background="#f0532f">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/principaltext"
+            android:id="@+id/IntroText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="76dp"
+           />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:id="@+id/button"
+            android:background="#2992ff"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>
 
