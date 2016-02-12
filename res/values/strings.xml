@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PrimerosAuxiliosEscolares</string>
-    <string name="principaltext">Bienvenido A Primeros Auxilios Escolares</string>
+    <string name="principaltext">Primeros Auxilios Escolares</string>
+    <string name="nothing">Entrar</string>
+    <string name="wdqw"/>
+    <string name="logo">logo</string>
 </resources>
