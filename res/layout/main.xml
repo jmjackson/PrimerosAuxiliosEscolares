@@ -20,11 +20,12 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/wdqw"
+            android:text="@string/nothing"
+            android:textColor="#000"
+            android:background="@drawable/rounded_button"
             android:id="@+id/button"
-            android:background="@drawable/intro_1"
             android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"/>
+            android:layout_centerHorizontal="true" android:onClick="OtherLayout"/>
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
